@@ -1,0 +1,28 @@
+.eggback{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(38, 4, 100);
+}
+#egg{
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border-top: 125px solid yellow;
+    animation:rotata 2s infinite;
+}
+@keyframes rotata {
+    from{
+        transform:rotate(0deg) ;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#egg:hover{
+    background-color: yellow;
+    border-top: 125px solid aquamarine;
+}
